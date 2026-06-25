@@ -27,6 +27,6 @@ jobs:
         uses: dswistowski/action-surge-deploy@v1
         with:
           project: 'out' # Next.js default output directory for 'next export'
-          login: ${{ secrets.SURGE_LOGIN }}
+          login: 'shalin.mehta2015@gmail.com'
           token: ${{ secrets.SURGE_TOKEN }}
           domain: 'news-blog-njs.surge.sh' # Replace with your Surge domain
