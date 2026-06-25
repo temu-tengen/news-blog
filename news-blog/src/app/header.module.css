@@ -1,0 +1,24 @@
+.navItem {
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navItem:hover {
+    color: black;
+    background-color: cyan;
+
+    transition: background-color 0.2s ease;
+}
+
+.navBar {
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.header {
+    background-image: linear-gradient(to right, black, cyan);
+}

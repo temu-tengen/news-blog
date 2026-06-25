@@ -1,0 +1,44 @@
+.articleContainer {
+    background-color: darkgrey;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 20px;
+    min-height: 150px;
+    border-style:groove;
+    border-width: 10px;
+    border-color: cyan;
+}
+
+.heading {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.content {
+    font-size: 15px;
+    margin: 20px;
+}
+
+.author {
+    margin-left: 80%;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.email {
+    margin-left: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.articleCredits {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.image {
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: cyan;
+    margin-left: 20px;
+}
