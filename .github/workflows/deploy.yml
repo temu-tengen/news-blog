@@ -24,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Surge
-        uses: dswistowski/action-surge-deploy@v1
+        uses: dswistowski/surge-sh-action@v1
         with:
           project: 'out' # Next.js default output directory for 'next export'
           login: 'shalin.mehta2015@gmail.com'
