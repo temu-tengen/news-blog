@@ -7,6 +7,7 @@ export default function Games() {
             <h1 className="pageTitle">Games</h1>
             <Game src="https://microstudio.dev" name="MicroStudio"></Game>
             <Game src="https://spam-racing.surge.sh" name="Spam Racing"></Game>
+            <Game src="https://zombie-sh.surge.sh" name="Zombie Apocalypse"></Game>
             
         </div>
     );
